@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo"><img src="./images/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="text" placeholder="search...">
+            </div>
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li><a href="" class="active-link" ><img src="./images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href=""><img src="./images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href=""><img src="./images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href=""><img src="./images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href="./images/notification.png"><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img onclick="toggleMenu()" src="./images/user-1.png" class="nav-profile-img" alt="">
+            </div>
+        </div>
+
+        <!----------------------- profile-drop-down-menu------------------- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/user-1.png" alt="">
+                    <div>
+                        <h3>Omid Sargazi</h3>
+                        <a href="">See Your Profile</a>
+                    </div>
+                </div>
+                <hr/>
+                <a href="" class="profile-menu-link">
+                    <img src="./images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="./images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="./images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="./images/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="./images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="./images/cover-pic.png" width="100%" alt="">
+                <div class="profile-container-inner">
+                    <img src="./images/user-1.png" class="profile-pic" alt="">
+                    <h1>Omid Sargazi</h1>
+                    <b>Front End Developer and Responsive WebSite</b>
+                    <p>Melbourne, Austria &middot; <a href="">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="./images/user-2.png" alt="">
+                        <span>1 mutual connection: Orlando Diggs </span>
+                    </div>
+                    <div class="profile-btn">
+                        <a class="primary-btn" href=""><img src="./images/connect.png" alt="">Connect</a>
+                        <a href=""><img src="./images/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-desc">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis hic incidunt possimus, quaerat pariatur laborum doloribus. Nemo, iusto. Veniam ducimus nobis minima nulla. Eveniet nihil animi ab ea quam a commodi dolorum consectetur nam quia, quis sapiente voluptatem natus necessitatibus maiores nostrum quas molestias autem inventore explicabo numquam? Est, alias?</p>
+                <a href="" class="see-more-link">See more....</a>
+            </div>
+        </div>
+        <div class="profile-sidebar"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
